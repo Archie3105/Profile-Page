@@ -121,6 +121,11 @@
             justify-content: center;
             align-items: flex-start;
             flex-direction: column;
+            transition: all ease 0.5s;
+            backdrop-filter: blur(1.5px);
+        }
+        .abhishek:hover{
+            transform: scale(0.9);
         }
         h1{
             padding: 20px 20px;
@@ -135,11 +140,12 @@
             color: salmon;
             /*border: 2px solid salmon;*/
             background-color: black;
+            transition: all ease 0.6s;
         }
         button:hover{
             background-color: salmon;
             color: #fff;
-            transition: 0.3s;
+            transform: scale(1.2);
         }
         button::after{
             transition: 0.8s;
@@ -149,23 +155,24 @@
         }
         .about-social-link-box{
             width: auto;
-            height: 50px;
+            height: 60px;
             margin: 20px 15px;
-           /* border: 1px solid salmon;*/
+           /* border: 1px solid salmon; */
         }
         .about-social-link-box i{
-            bottom: 600px;
-            font-size: 50px;
+            /* bottom: 600px; */
+            font-size: 40px;
             margin: 20px 15px;
-            padding: 5px 6px;
+            padding: 15px 6px;
             color: rgb(114, 108, 107);
-            display: inline;
+            display: inline-flex;
             width: auto;
             align-items: center;
+            transition: all ease .7s;
         }
         .about-social-link-box i:hover{
             color:  #ecf7f8;
-            transition: 0.7s;
+            transform: scale(1.6);
         }
         .abhi{
             width: 300px;
@@ -178,6 +185,10 @@
         .abhi img{
             width: 330px;
             height: 400px;
+            transition: all ease 0.5s;
+        }
+        .abhi img:hover{
+            transform: scale(1.1);
         }
         footer{
             margin: 0px 0px;
@@ -232,6 +243,7 @@
     </nav>
 </header>
 <div class="main">
+
     <div class="abhishek">
         <h1>This is me <span>Abhishek Kumar</span> & trying to become a software developer.</h1>
         <br>
